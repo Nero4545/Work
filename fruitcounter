@@ -1,0 +1,17 @@
+let applecounter = 0;
+let pearcounter = 0;
+
+while (true) {
+let input = prompt();
+
+if (input === "apple") {
+applecounter++;
+}  else if (input === "pear") {
+pearcounter++;
+ } else {
+alert("unknown fruit");
+break;
+}
+}
+console.log("applecounter "+ applecounter);
+console.log("pirn arv " + pearcounter);
