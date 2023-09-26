@@ -14,4 +14,4 @@ break;
 }
 }
 console.log("applecounter "+ applecounter);
-console.log("pirn arv " + pearcounter);
+console.log("pearcounter" + pearcounter);
