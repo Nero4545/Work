@@ -1,4 +1,4 @@
-```javascript
+javascript
 var order = { 
   "id": 2113, 
   "orderNumber": "E210126001", 
@@ -59,4 +59,3 @@ const totalOrderPrice = order.rows.reduce((total, row) => {
 }, 0).toFixed(2);
 
 console.log(`Total Order Cost: ${totalOrderPrice}`);
-```
